@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetectLang</title>
+    <link rel="stylesheet" href="/styles/css-files/about-style.css">
+    <link rel="stylesheet" href="/styles/media-files/about-media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="header-info">
+            <button onclick="backToHomePage()" type="button" class="home-page" style="margin: 0px 0px -1px -2px; vertical-align: middle;">
+                <img src="/styles/images/back.png" alt="back">
+            </button>
+            <div class="h1-div">
+                <img class="info-logo" src="/styles/images/info-logo.png" style="height: 40px; width: 40px;" alt="info">
+                <h1 style="margin: 0; font-size: 20px;">ABOUT US</h1>
+            </div>
+        </div>
+        <p style="text-indent: 25px; text-align: justify;">
+            DetectLang is a website that uses an API to detect the language of a text.
+            The languages I used to build this website are the following: HTML, CSS, JavaScript.
+            I also used Node.js and Express.js for the server-side. And EJS to connect HTML and JavaScript.
+            I also used Canva just for one image, removal.ai to remove background, and PicWish to enhance image quality.
+            Thank you for trying!
+        </p>
+    </div>
+
+    <script>
+        function backToHomePage() {
+            window.location.href = '/'
+        }
+
+        setTimeout(document.querySelector(".info"), function() {
+            document.querySelector(".info").style.opacity = "1"
+        }, 500)
+    </script>
+</body>
+</html>

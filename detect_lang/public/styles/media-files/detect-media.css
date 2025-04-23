@@ -1,0 +1,206 @@
+@media (min-width: 400px) and (max-width: 800px) {
+    body {
+        padding: 20px;
+    }
+
+    .row2 {
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .input, .result, .result2 {
+        width: 50%;
+        animation: fade-in 0.8s forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+            color: rgb(235, 235, 235);
+            width: 100%;
+        }
+        to {
+            color: #202020;
+            width: 100%;
+        }
+    }
+
+    .container  {
+        width: 100%;
+    }
+
+    .detect-language {
+        margin-bottom: 12px;
+    }
+}
+
+
+@media (min-width: 290px) and (max-width: 400px) {
+    body {
+        padding: 20px;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .confirm > h1 {
+        font-size: 1.75rem;
+    }
+
+    .confirm > p {
+        font-size: 1.5rem;
+    }
+
+    .yes-btn, .no-btn {
+        width: 90px;
+    }
+
+    .row2 {
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .input, .result, .result2 {
+        width: 50%;
+        animation: fade-in 0.8s forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+            color: rgb(235, 235, 235);
+            width: 100%;
+        }
+        to {
+            color: #202020;
+            width: 100%;
+        }
+    }
+
+    .container  {
+        width: 100%;
+    }
+
+    .detect-language {
+        margin-bottom: 12px;
+    }
+}
+
+
+@media (max-width: 290px) {
+    body {
+        padding: 20px;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .row2 {
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .input, .result, .result2 {
+        width: 50%;
+        animation: fade-in 0.8s forwards;
+        font-size: 10px;
+    }
+
+    @keyframes fade-in {
+        from {
+            color: rgb(235, 235, 235);
+            width: 100%;
+        }
+        to {
+            color: #202020;
+            width: 100%;
+        }
+    }
+
+    .container  {
+        width: 100%;
+    }
+
+    .detect-language {
+        margin-bottom: 12px;
+    }
+}
+
+
+@media (max-width: 235px) {
+    body {
+        padding: 20px;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .row1 {
+        flex-direction: column;
+    }
+
+    .row2 {
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .input, .result, .result2 {
+        width: 50%;
+        animation: fade-in 0.8s forwards;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    @keyframes fade-in {
+        from {
+            color: rgb(235, 235, 235);
+            width: 100%;
+        }
+        to {
+            color: #202020;
+            width: 100%;
+        }
+    }
+
+    .container  {
+        width: 100%;
+    }
+
+    .detect-language {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+    .confirm > .btns-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .confirm > h1 {
+        font-size: 1.75rem;
+    }
+
+    .confirm > p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .confirm > .btns-row {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .confirm > h1 {
+        font-size: 1.75rem;
+    }
+
+    .confirm > p {
+        font-size: 1.5rem;
+    }
+}

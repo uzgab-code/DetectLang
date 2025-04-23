@@ -1,0 +1,15 @@
+@media (min-width: 300px) and (max-width: 550px) {
+    body {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        padding: 0px 20px;
+    }
+
+    .info-logo {
+        display: none;
+    }
+}
