@@ -1,7 +1,7 @@
 # DetectLang
 A website that detects the language of a text using an API.
 
-## **For your information:** API Documentation: https://detectlanguage.com/documentation
+## API Documentation: https://detectlanguage.com/documentation
 
 Developed by using the following:
 - HTML
